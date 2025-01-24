@@ -82,6 +82,15 @@ CSS STRUCTURE:
 .text-light {
   --bs-text-opacity: 0.6;
 }
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./icomoon/fonts/gilroy-bold/Gilroy-Bold.ttf') format('truetype');
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif !important;
+}
 
 /*--------------------------------------------------------------
 /** 1. VARIABLES
@@ -114,13 +123,13 @@ CSS STRUCTURE:
 
 /* Fonts */
 :root {
-  --body-font: "Roboto", sans-serif;
-  --heading-font: 'Montserrat', sans-serif;
+  --body-font: 'Gilroy', sans-serif;
+  --heading-font: 'Gilroy', sans-serif;
 }
 
 /* Bootstrap */
 body {
-  --heading-font: "Montserrat", Roboto, sans-serif;
+  --heading-font:'Gilroy', sans-serif;
   --heading-font-weight: 400;
   --heading-color: #111;
   --heading-line-height: 1.24;
@@ -128,7 +137,7 @@ body {
   --swiper-theme-color: #C5A992;
 
   /* bootstrap */
-  --bs-body-font-family: "Roboto", Arial, sans-serif;
+  --bs-body-font-family: 'Gilroy', sans-serif;
   --bs-body-font-size: 18px;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -1343,16 +1352,17 @@ This is main CSS file that contains custom style rules used in this template
 /* Logo
 ------------------------------------------------------------- */
 .main-logo {
-  height: var(--header-height);
+  height: 200px;
   display: flex;
   align-items: center;
-  background-color: var(--dark-color);
+  /* background-color: var(--dark-color); */
   padding: 40px;
   margin-right: 60px;
   transition: 0.5s all ease-out;
-  width: 150px;
+  width: 300px;
   position: absolute;
   z-index: 1;
+  top: 0;
 }
 
 .main-logo a {
