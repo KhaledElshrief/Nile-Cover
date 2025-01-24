@@ -2391,9 +2391,8 @@ footer#footer {
 }
 
 #footer img.footer-logo {
-  margin-bottom: 30px;
-  width: 200px;
-  height: auto;
+ margin-bottom: 5px;
+
 }
 
 .footer-menu {
