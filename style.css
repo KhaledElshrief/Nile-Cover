@@ -2819,11 +2819,11 @@ footer#footer {
 }
 
 .form-light ::-webkit-input-placeholder {
-  color: #6E6E6E;
+  color: white;
 }
 
 .form-light :-ms-input-placeholder {
-  color: #6E6E6E;
+  color: white;
 }
 
 .form-light textarea {
